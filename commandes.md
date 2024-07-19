@@ -4,12 +4,14 @@
 
 1. *Serveur de développement*
    bash
+   
    php artisan serve
    # Pour démarrer un serveur de développement local.
    
 
-2. *Migration*
+3. *Migration*
    bash
+   
    php artisan migrate
    # Pour exécuter toutes les migrations non exécutées.
 
@@ -26,7 +28,7 @@
    # Pour voir l'état actuel des migrations.
    
 
-3. *Modèles*
+5. *Modèles*
    bash
    php artisan make:model ModelName
    # Pour créer un nouveau modèle.
