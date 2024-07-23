@@ -4,34 +4,31 @@
 
 1. *Serveur de développement*
    bash
-   
-   # php artisan serve
     *Pour démarrer un serveur de développement local.*
+    # php artisan serve
    
 
 3. *Migration*
    bash
-   
-   # php artisan migrate
    *Pour exécuter toutes les migrations non exécutées.*
+    # php artisan migrate
 
-  # php artisan migrate:rollback
    *Pour annuler la dernière migration exécutée.*
+     # php artisan migrate:rollback
 
-   # php artisan migrate:refresh
     *Pour annuler toutes les migrations et les réexécuter.*
+      # php artisan migrate:refresh
 
-   php artisan migrate:reset
-   # Pour annuler toutes les migrations.
+   *Pour annuler toutes les migrations*
+     # php artisan migrate:reset
 
-   php artisan migrate:status
-   # Pour voir l'état actuel des migrations.
+   *Pour voir l'état actuel des migrations.*
+   # php artisan migrate:status
    
-
 5. *Modèles*
    bash
-   php artisan make:model ModelName
-   # Pour créer un nouveau modèle.
+   *Pour créer un nouveau modèle.*
+  # php artisan make:model ModelName
 
    php artisan make:model ModelName -m
    # Pour créer un nouveau modèle avec une migration.
