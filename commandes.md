@@ -5,21 +5,21 @@
 1. *Serveur de développement*
    bash
    
-   php artisan serve
-   # Pour démarrer un serveur de développement local.
+   # php artisan serve
+    *Pour démarrer un serveur de développement local.*
    
 
 3. *Migration*
    bash
    
-   php artisan migrate
-   # Pour exécuter toutes les migrations non exécutées.
+   # php artisan migrate
+   *Pour exécuter toutes les migrations non exécutées.*
 
-   php artisan migrate:rollback
-   # Pour annuler la dernière migration exécutée.
+  # php artisan migrate:rollback
+   *Pour annuler la dernière migration exécutée.*
 
-   php artisan migrate:refresh
-   # Pour annuler toutes les migrations et les réexécuter.
+   # php artisan migrate:refresh
+    *Pour annuler toutes les migrations et les réexécuter.*
 
    php artisan migrate:reset
    # Pour annuler toutes les migrations.
