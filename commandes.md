@@ -5,7 +5,7 @@
 1. *Serveur de développement*
    bash
     *Pour démarrer un serveur de développement local.*
-```bash```
+```bash
      php artisan serve
    ````
 
