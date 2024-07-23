@@ -163,7 +163,10 @@
     php artisan make:test TestName
     # Pour créer un nouveau test.
     
-
+22.*Link storage resources (image) to public app
+   bash
+   php artisan storage:link
+   # Pour lier le dossier storage aux ressouces du dossier public 
 ### Eloquent ORM
 
 #### Les plus utilisés
