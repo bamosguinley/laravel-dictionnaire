@@ -5,8 +5,9 @@
 1. *Serveur de développement*
    bash
     *Pour démarrer un serveur de développement local.*
-    # php artisan serve
-   
+```bash```
+     php artisan serve
+   ````
 
 3. *Migration*
    bash
