@@ -183,7 +183,8 @@
     ```bash
     php artisan storage:link
     ```
-    *Pour lier le dossier storage aux ressources du dossier public.*
+    *Pour lier le dossier storage aux ressources du dossier public(crée un lien symbolique || symlink.*
+   **Note:** 
 
 ### Eloquent ORM
 
