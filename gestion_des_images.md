@@ -48,7 +48,8 @@
 ```php
    {{asset('storage/' . $article->image)}}
 
-   // utilisation de la méthode asset pour créer un path valide qui contient la concatenation du chemin vers le dossier storage du dossier public de l'application ('public/storage') avec le chemin du fichier venant de la base de donnée.
+   /* utilisation de la méthode asset pour créer un path valide qui contient la concatenation du chemin vers le dossier 
+storage du dossier public de l'application ('public/storage') avec le chemin du fichier venant de la base de donnée.*/
 ```
 
 _Exemple: 'storage/images/mon-image.png'_ avec pour chemin complet '/public/storage/images/mon-image.png'
