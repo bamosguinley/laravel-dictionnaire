@@ -377,4 +377,4 @@
    ```bash
    php artisan queue:listen
    ```
-   *Pour écouter et traiter les jobs de la file d'attente
+   *Pour écouter et traiter les jobs de la file d'attente*
