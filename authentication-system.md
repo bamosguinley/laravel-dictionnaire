@@ -96,13 +96,6 @@ Ici on va juste mettre l'accent sur la validation du passsword
             ],
         ];
     }
-    /**
-     * fonction de hash du password après validation
-     * @return void
-     */
-    protected function passedValidation(){
-        $this->merge(["password", bcrypt($this->password)]);
-    }
 ```
 
 ### Troisième étape: Mettons maitenat en place la méthode qui permet d'enregistrer l'utilisateur
@@ -130,9 +123,12 @@ class RegisterController extends Controller
     {
         //on récupère les données validées
         $validated = $request->validated();
-
-        //créer le nouvel utilisateur
-        User::create($validated);
+            //créer le nouvel utilisateur
+        User::create([
+            "name" => $validated["name"],
+            "email" => $validated["email"],
+            "password" => bcrypt($validated["password"]),
+        ]);
         //connecter l'utilisateur 
         $user= User::where('email',$validated['email'])->firstOrFail();
         Auth::login($user);
