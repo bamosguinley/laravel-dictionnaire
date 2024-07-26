@@ -24,7 +24,7 @@ Route::post('/login', [SessionsController::class, 'login']);// permet d'effectue
 ```php
 // views/Auth/register.blade.php
 
-<form method="POST" action="{{route('login')}}">
+<form method="POST" action="{{route('register')}}">
            @csrf
           <!-- les champs de votre formulaire ici-->
            <div class="mb-3">
