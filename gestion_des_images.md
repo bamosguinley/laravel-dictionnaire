@@ -53,3 +53,9 @@ storage du dossier public de l'application ('public/storage') avec le chemin du 
 ```
 
 _Exemple: 'storage/images/mon-image.png'_ avec pour chemin complet '/public/storage/images/mon-image.png'
+
+
+
+## Pour la suppression des images il suffit d'utiliser: 
+-   Storage::disk("public")->delete($article->image);
+*Dans ce cas on a supprimer l'image d'une article stocker dans le dossier public
