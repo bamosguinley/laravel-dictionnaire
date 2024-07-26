@@ -57,5 +57,7 @@ _Exemple: 'storage/images/mon-image.png'_ avec pour chemin complet '/public/stor
 
 
 ## Pour la suppression des images il suffit d'utiliser: 
--   Storage::disk("public")->delete($article->image);
+```php
+  Storage::disk("public")->delete($article->image);
+```
 *Dans ce cas on a supprimer l'image d'une article stocker dans le dossier public
